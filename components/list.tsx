@@ -32,8 +32,8 @@ export const List = () => {
   return (
     <div>
       {data.payment.map((payment:any) => (
-        <ul>
-          <li key={payment.id}>
+        <ul key={payment.id}>
+          <li >
             {payment.amount}
             {payment.state}
           </li>
