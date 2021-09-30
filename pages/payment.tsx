@@ -40,6 +40,9 @@ const Payment: NextPage = () => {
         <Col span={1}>
           <div style={{ width: "40px", height: "40px", backgroundColor: "#80808014", color: "black" }} onClick={() => setBackground("#80808014")}>Gray</div>
         </Col>
+        <Col span={1}>
+          <div style={{ width: "40px", height: "40px", backgroundColor: "#452650", color: "white" }} onClick={() => setBackground("#452650")}>Purple</div>
+        </Col>
       </Row>
       <Row>
         <Col span={1}>
